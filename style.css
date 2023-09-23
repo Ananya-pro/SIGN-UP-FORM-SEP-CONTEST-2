@@ -31,6 +31,7 @@ body{
     box-shadow: 5px 5px 5px 5px rgb(167, 161, 161);
     background: rgba(255, 255, 255, 1);
     /* transition: transform 2s; */
+    border-radius: 5px;
 }
 
 .welcome 
@@ -96,18 +97,18 @@ button:hover{
     justify-content: center;
 }
 .act{
-    font-size: 12px;
+    font-size: 16px;
     line-height: 15.06px;
     text-align: center;
     font-weight: 200;
     color:#333333;
-    width:179px;
+    width:247px;
     height: 15px;
     font-family: 'Mulish', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Ruda', sans-serif; 
     /* margin-left: 20px; */
-     margin-top:120px;
+     margin-top:143px;
  
 }
 .act a{
