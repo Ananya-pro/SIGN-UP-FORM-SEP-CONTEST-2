@@ -119,3 +119,27 @@ button:hover{
     position: relative;
     bottom:-6px;
 }
+@media screen and (max-width: 480px){
+    /* For mobile phones: */
+    .items{
+        width: 316px;
+        height: 438px;
+        top: 110px;
+        left: 49px;
+    }
+    .val{
+        width: 265px;
+        /* height: 50.87px;
+        top: 208px;
+        left: 79px; */
+        border-radius: 6px;
+        border: 1px solid #DEDEDE;
+
+    }
+    .continue{
+        width:265px;
+    }
+    .act{
+        margin-top:40px;
+    }
+  }
