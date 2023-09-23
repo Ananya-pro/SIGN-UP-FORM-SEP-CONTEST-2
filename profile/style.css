@@ -114,3 +114,24 @@ body{
     height:87px;
     border-radius:8px;
 }
+
+
+@media screen and (max-width: 480px){
+    /* For mobile phones: */
+    .container{
+        width: 298px;
+        height: 492px;
+    
+    }
+    .cnt{
+        width:217px;
+    }
+    .item{
+        width: 287px;
+        margin-left:-13px;
+    }
+    .sign-up{
+        margin-right:119px;
+    }
+    
+  }
