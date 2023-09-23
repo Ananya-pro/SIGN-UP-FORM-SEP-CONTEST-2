@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url('./Background\ Pattern\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width:100%;
+    /* background:rgb(214, 234, 240); */
+}   
+#main-container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.items{
+    width: 444px;
+    height: 500px;
+    /* margin-top: 100px;
+    margin-left: 700px; */
+    margin-bottom: 20px;
+    padding:20px;
+    box-shadow: 5px 5px 5px 5px rgb(167, 161, 161);
+    background: rgba(255, 255, 255, 1);
+    /* transition: transform 2s; */
+}
+
+.welcome 
+{
+    margin-left: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ruda', sans-serif;
+}
+
+.heading{
+    margin-left:20px;
+}
+.val{
+    width: 352px;
+    height: 36px;
+    padding:0px 12px 0px 12px;
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+
+}
+label{
+    width:127px;
+    height:15px;
+    margin-left: 20px;
+    font-family: 'Mulish', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    line-height: 17.57px;
+    color:#333333;
+    font-weight: 500px;
+
+}
+
+.continue{
+    width: 352px;
+    height: 55.8px;
+    padding: 9px, 14px, 9px, 14px;
+    border-radius: 6px;
+    cursor:pointer;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 500px;
+    margin-left: 20px;
+    /* background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%); */
+    background:#463EEA ;
+    margin-top:14px;
+
+}
+button:hover{
+    background-color: aqua;
+    color: #000 !important;;
+
+}
+.account{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.act{
+    font-size: 12px;
+    line-height: 15.06px;
+    text-align: center;
+    font-weight: 200;
+    color:#333333;
+    width:179px;
+    height: 15px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ruda', sans-serif; 
+    /* margin-left: 20px; */
+     margin-top:120px;
+ 
+}
+.act a{
+    text-decoration: none;
+}
+
+#error-message{
+    position: relative;
+    bottom:-6px;
+}

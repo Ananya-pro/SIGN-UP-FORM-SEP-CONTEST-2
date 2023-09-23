@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url('./Background\ Pattern\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width:100%;
+    /* background:rgb(214, 234, 240); */
+} 
+#background{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    width: 444px;
+    height: 500px;
+    /* margin-top: 100px;
+    margin-left: 700px; */
+    margin-bottom: 20px;
+    padding:20px;
+    box-shadow: 5px 5px 5px 5px rgb(167, 161, 161);
+    background: rgba(255, 255, 255, 1);
+    /* transition: transform 2s; */
+
+}
+.container p{
+    font-family: Mulish, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ruda', sans-serif;
+
+}
+.item {
+    font-weight: 400px;
+    font-size: 18px;
+    font-family: Mulish, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    line-height: 22.59px;
+    align-items: center;
+    padding-left: 130px;
+    width: 352px;
+    height: 36px;
+    padding:0px 12px 0px 12px;
+    margin-left: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: revert;
+}
+    
+
+
+.cnt{
+    background-color:#463EEA;
+    height:56px;
+    cursor: pointer;
+    margin-left: 8%;
+     width: 352px;
+    border-radius: 6px;
+    padding: 9px 14px 9px 14px;
+    font-family: Mulish, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#logoutBtn{
+    margin-top:20px;
+}
+#logoutBtn:hover{
+    background-color: aqua;
+    color:#000;
+
+}
+.message{
+    width:340px;
+    height: 37px;
+    margin-top: 37px;
+    font-family: Mulish, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 700px;
+    line-height: 30.12px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;;
+    align-items: center;
+    font-size: 24px;
+    color:#625BF7;
+}
+.profile_details
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.profile_details img{
+    height:87px;
+    border-radius:8px;
+}
